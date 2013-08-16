@@ -1,1 +1,1 @@
-# My ~/vim files repo.
+# My ~/.vim files repo.
