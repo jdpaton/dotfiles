@@ -80,6 +80,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 map <C-n> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
+map  <F7> mzgg=G`z<CR>
 
 let g:neocomplcache_enable_at_startup = 1
 
