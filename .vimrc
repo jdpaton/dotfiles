@@ -93,6 +93,9 @@ au FileType javascript setl sw=4 sts=4 et
 au FileType python setl sw=4 sts=4 et
 au FileType ruby setl sw=2 sts=2 et
 
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %"
+
 :au BufRead,BufNewFile *.jake,Jakefile set filetype=javascript
 
 
