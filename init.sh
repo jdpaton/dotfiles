@@ -33,7 +33,7 @@ cd ~/.vim && git submodule update --init
 cd "${DIR_VIM}" && git submodule foreach git pull origin master
 
 # Powerline
-if [ ! d "${DIR_POWERLINE}" ]
+if [ ! -d "${DIR_POWERLINE}" ]
 then
     git clone git://github.com/Lokaltog/powerline ~/.powerline
 else

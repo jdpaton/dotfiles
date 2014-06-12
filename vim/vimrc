@@ -13,7 +13,8 @@ set softtabstop=4
 call pathogen#infect()
 
 if &t_Co >= 256 || has("gui_running")
-        colorscheme  busierbee
+        colorscheme monokai
+        "colorscheme  busierbee
         "colorscheme carvedwood
         "colorscheme BusyBee
         "colorscheme distinguished
