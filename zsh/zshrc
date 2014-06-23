@@ -65,6 +65,9 @@ export EDITOR='vim'
 alias g='git'
 alias l='ls -lash'
 alias s='stackato'
+alias sp='cd ~/dev/scratchpad'
 alias updick='/usr/bin/uptime | perl -ne "/(\d+) d/;print 8,q(=)x\$1,\"D\n\""'
+
+alias reload-zsh='source $HOME/.zshrc'
 
 [ -s "$HOME/.nvm/nvm.sh" ] && . "$HOME/.nvm/nvm.sh"

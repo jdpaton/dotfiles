@@ -5,27 +5,30 @@ set rtp+=/usr/local/Cellar/go/1.0.1/misc/vim
 filetype plugin indent on
 syntax on
 
+set t_Co=256
+set background=dark
+
 set expandtab
 set shiftwidth=4
 set softtabstop=4
 
+let g:molokai_original = 1
+"let g:rehash256 = 1
 
 call pathogen#infect()
 
 if &t_Co >= 256 || has("gui_running")
-        colorscheme monokai
+        colorscheme  molokai
         "colorscheme  busierbee
         "colorscheme carvedwood
-        "colorscheme BusyBee
-        "colorscheme distinguished
-        "colorscheme twilight
         set guioptions-=r
         set go-=L
         set go-=T
 else
-        "colorscheme kraighlight2
-        colorscheme rdark
+        colorscheme kraighlight2
+        "colorscheme rdark
 endif
+
 
 " line tracking
 set numberwidth=5
