@@ -1,9 +1,6 @@
 set ruler
 set nu
 set rtp+=$HOME/.powerline/powerline/bindings/vim
-set rtp+=/usr/local/Cellar/go/1.0.1/misc/vim
-filetype plugin indent on
-syntax on
 
 set t_Co=256
 set background=dark
@@ -11,6 +8,7 @@ set background=dark
 set expandtab
 set shiftwidth=4
 set softtabstop=4
+set backspace=2
 
 let g:molokai_original = 1
 "let g:rehash256 = 1
